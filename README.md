@@ -1,8 +1,6 @@
 ## CRUD Simples no React consumindo API REST PHP no CodeIgniter 4
 
-```
 Este pequeno projeto apresenta um CRUD básico que trabalha no front-end, utilizando REACT.JS  capaz de operar funcionalidades: inserir, editar e remover registros de produtos que estão sendo acessados a uma API RESTful [PHP] e um banco de dados [MySQL] que foram implementados em CodeIgniter 4.
-```
 
 ### Documentação da API REST
 
@@ -21,8 +19,27 @@ Most of the technologies used for the projects:
 * [MySQL] - Banco de Dados - https://www.mysql.com/
 * [node.js] - Javascript runtime enviroment.
 * [Postman] - Every back-end developers favorite front-end.
-* [PHP storm] - Best PHP IDE hands down.
-* [Github] - duh.
+* [Visual Studio Code] - https://code.visualstudio.com/
+* [Github] - https://github.com/
+
+
+
+### Configuração do banco de dados Mysql
+
+>1. No banco de dados, crie uma database com o comando a seguir:
+>
+>create database kodigos;
+>
+>![image-20210524072007600](C:\Users\Edipo Maciel\AppData\Roaming\Typora\typora-user-images\image-20210524072007600.png)
+>
+>2. Depois, vá para a aba Importar, conforme imagem a seguir, clique em Escolher ficheiro e abra o arquivo kodigos.sql que está no diretório raiz.
+>3. ![image-20210524072229089](C:\Users\Edipo Maciel\AppData\Roaming\Typora\typora-user-images\image-20210524072229089.png),
+>
+>
+
+
+
+3. Depois de executado, você terá a base de dados kodigos, com as tabelas estoque e produto.
 
 ### Instalação e execução da API REST (PHP)
 >Para rodar a API REST, precisa de um servidor Apache com PHP, neste exemplo , estou usando o XAMPP na minha máquina local:
