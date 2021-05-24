@@ -30,10 +30,11 @@ Most of the technologies used for the projects:
 >
 >create database kodigos;
 >
->![image-20210524072007600](C:\Users\Edipo Maciel\AppData\Roaming\Typora\typora-user-images\image-20210524072007600.png)
+>![](C:\xampp\htdocs\KodigosUltimaTentativa\imagens_readme\createdatabase.jpg)
 >
 >2. Depois, vá para a aba Importar, conforme imagem a seguir, clique em Escolher ficheiro e abra o arquivo kodigos.sql que está no diretório raiz.
->3. ![image-20210524072229089](C:\Users\Edipo Maciel\AppData\Roaming\Typora\typora-user-images\image-20210524072229089.png),
+>
+>   ![](C:\xampp\htdocs\KodigosUltimaTentativa\imagens_readme\adicionandosql.jpg)
 >
 >
 
