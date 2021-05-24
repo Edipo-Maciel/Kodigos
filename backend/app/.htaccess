@@ -1,0 +1,18 @@
+<IfModule authz_core_module>
+    Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>
+
+
+ <IfModule mod_headers.c>
+        <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|svg|svgz|jpg|png|ico|font.css|css|js)$">
+            ## un-remark this one for all access and remark out the one below it            
+            #Header set Access-Control-Allow-Origin "*"
+            ## Change this to your local host url. and https or http
+            Header add Access-Control-Allow-Origin: "https://localhost:3000"
+            Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+            Header add Access-Control-Allow-Headers: "Upgrade-Insecure-Requests"
+        </FilesMatch>
+    </IfModule>
