@@ -30,11 +30,11 @@ Most of the technologies used for the projects:
 >
 >create database kodigos;
 >
->![](C:\xampp\htdocs\KodigosUltimaTentativa\imagens_readme\createdatabase.jpg)
+>![](imagens_readme\createdatabase.jpg)
 >
 >2. Depois, vá para a aba Importar, conforme imagem a seguir, clique em Escolher ficheiro e abra o arquivo kodigos.sql que está no diretório raiz.
 >
->   ![](C:\xampp\htdocs\KodigosUltimaTentativa\imagens_readme\adicionandosql.jpg)
+>   ![](imagens_readme\adicionandosql.jpg)
 >
 >
 
